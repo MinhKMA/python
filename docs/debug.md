@@ -1,10 +1,10 @@
 ## Python Debug
 
-### What is debugging
+### I.What is debugging
 
 Debugging hay còn được gọi là debug. Debugging là quá trình để tìm và gỡ lỗi chương trình máy tính, được xử lý một cách có phương pháp bởi các phần mềm lập trình thông qua các công cụ gỡ lỗi. Gỡ lỗi kiểm tra, phát hiện và sửa lỗi hoặc lỗi để cho phép chương trình hoạt động theo quy định.
 
-### How many way to debug in Python
+### II. How many way to debug in Python
 
 #### 6 Quick python debugging tips :
 
@@ -55,5 +55,33 @@ Một số tip của pdb nổi bật:
 
 ***Note: this tip only works in ipython, not in the standard Python 2.7 REPL***
 
-### How to setup debug in Pycharm?
+### III. How to setup debug in Pycharm?
+
+Sau đây mình xin hướng dẫn các bạn cách debug một chương trình đơn giản
+
+- Ví dụ đây là một chương trình bạn muốn debug: 
+
+<img src = "https://i.imgur.com/8Ynjodf.png">
+
+- Bước 1: click chuột trái vào lề trái của dòng code mình muốn bắt đầu debug với nó :
+
+<img src = "https://i.imgur.com/VimhgyG.png">
+
+- Bước 2: Sử dụng tổ hợp phím `shift + F9` hoặc click chuột phải chọn `Debug'tên file'`
+
+<img src ="https://i.imgur.com/0avd9pq.png">
+
+- Bước 4: sử dụng F8 để debug từng dòng một theo từng bước một 
+
+Mỗi bước nó sẽ hiển thị giá trị và kiểu của các biến mà từng dòng nó đã gọi tới
+
+<img src ="https://i.imgur.com/NCH59oE.png"> 
+
+Thông qua đó người lập trình viên có thể tìm ra những lỗi trong code của mình. 
+
+- Bước 5: Sử dụng tổ hợp phím `ctrl + F2` để stop debug Hoặc `ctrl F5` để rerun debug
+
+  
+Có thể còn nhiều cách debug sâu hơn nhưng ở bài viết này mình chỉ đề cập đến vài bước đơn giản :) 
+
 
